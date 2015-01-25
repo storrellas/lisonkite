@@ -674,12 +674,10 @@ Reparación y mantenimiento tejido de kite
 </style>
 <script>
 
+function slide_event(container_param, navigator_param, pause_param, speed_param){
 
-
-jQuery(function($) {
-    'use strict';
     if ($.fn.slider) {
-        $(".art-slidecontainerC49").each(function () {
+        $(container_param).each(function () {
             var slideContainer = $(this), tmp;
             var inner = $(".art-slider-inner", slideContainer);
             var helper = null;
@@ -687,85 +685,27 @@ jQuery(function($) {
 
             inner.children().eq(0).addClass("active");
             slideContainer.slider({
-                pause: 4600,
-                speed: 600,
+                pause: pause_param,
+                speed: speed_param,
                 repeat: true,
                 animation: "fade",
                 direction: "next",
-                navigator: slideContainer.siblings(".art-slidenavigatorC49"),
+                navigator: slideContainer.siblings(navigator_param),
                 helper: helper
                             });
         });
     }
+	
+}
+
+jQuery(function($) {
+    'use strict';
+    slide_event(".art-slidecontainerC49", ".art-slidenavigatorC49", 4600, 600)
+	slide_event(".art-slidecontainerGaastraMax21", ".art-slidenavigatorGaastraMax21",5600, 600)
+	slide_event(".art-slidecontainerBAC4", ".art-slidenavigatorBAC4", 6600, 600)
+	slide_event(".art-slidecontainerAir1", ".art-slidenavigatorAir1", 8600, 600)
 });
-/**/
-jQuery(function($) {
-    'use strict';
-    if ($.fn.slider) {
-        $(".art-slidecontainerBAC4").each(function () {
-            var slideContainer = $(this), tmp;
-            var inner = $(".art-slider-inner", slideContainer);
-            var helper = null;
 
-
-            inner.children().eq(0).addClass("active");
-            slideContainer.slider({
-                pause: 6600,
-                speed: 600,
-                repeat: true,
-                animation: "fade",
-                direction: "next",
-                navigator: slideContainer.siblings(".art-slidenavigatorBAC4"),
-                helper: helper
-                            });
-        });
-    }
-});
-jQuery(function($) {
-    'use strict';
-    if ($.fn.slider) {
-        $(".art-slidecontainerGaastraMax21").each(function () {
-            var slideContainer = $(this), tmp;
-            var inner = $(".art-slider-inner", slideContainer);
-            var helper = null;
-
-
-            inner.children().eq(0).addClass("active");
-            slideContainer.slider({
-                pause: 5600,
-                speed: 600,
-                repeat: true,
-                animation: "fade",
-                direction: "next",
-                navigator: slideContainer.siblings(".art-slidenavigatorGaastraMax21"),
-                helper: helper
-                            });
-        });
-    }
-});
-jQuery(function($) {
-    'use strict';
-    if ($.fn.slider) {
-        $(".art-slidecontainerAir1").each(function () {
-            var slideContainer = $(this), tmp;
-            var inner = $(".art-slider-inner", slideContainer);
-            var helper = null;
-
-
-            inner.children().eq(0).addClass("active");
-            slideContainer.slider({
-                pause: 8600,
-                speed: 600,
-                repeat: true,
-                animation: "fade",
-                direction: "next",
-                navigator: slideContainer.siblings(".art-slidenavigatorAir1"),
-                helper: helper
-                            });
-        });
-    }
-}); 
- 
 </script>
 
 <div class="art-layout-wrapper clearfix">
