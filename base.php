@@ -88,7 +88,7 @@
 		    	<li><a href="inicio.html" class="active">INICIO</a></li>
 		    	<li><a href="reparaciones.html">REPARACIONES</a>
 				<ul>
-			    	<li><a href="reparaciones/tela.html">TELA</a></li>
+			    	<li><a href="reparaciones/tela.php">TELA</a></li>
 			    	<li><a href="reparaciones/flotadores-2.html">FLOTADORES</a></li>
 			    	<li><a href="reparaciones/barras-2.html">BARRAS</a></li>
 			    	<li><a href="reparaciones/presupuesto.html">PRESUPUESTO</a></li>
