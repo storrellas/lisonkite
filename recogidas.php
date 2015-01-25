@@ -1,5 +1,8 @@
 <?php include 'base.php' ?>
 
+<?php startblock('title') ?>
+Recogida a domicilio de material kitesurf a reparar
+<?php endblock() ?>
 
 <?php startblock('content') ?>
 <div class="art-layout-wrapper clearfix">

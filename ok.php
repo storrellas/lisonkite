@@ -1,5 +1,8 @@
 <?php include 'base.php' ?> 
 
+<?php startblock('title') ?>
+LisonKite
+<?php endblock() ?>
 
 <?php startblock('content') ?> 
 <div class="art-layout-wrapper clearfix">

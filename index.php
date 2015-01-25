@@ -1,5 +1,9 @@
 <?php include 'base.php' ?> 
 
+<?php startblock('title') ?>
+Taller de reparación integral para equipos de kite
+<?php endblock() ?>
+
 
 <?php startblock('content') ?> 
 <div class="art-content-layout">

@@ -1,8 +1,10 @@
 <?php include 'base.php' ?> 
 
+<?php startblock('title') ?>
+Reparación y mantenimiento tejido de kite
+<?php endblock() ?>
 
 <?php startblock('content') ?> 
-
 
 <style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 3px;padding-left: 3px;  }
 .ie7 .post .layout-cell {border:none !important; padding:0 !important; }

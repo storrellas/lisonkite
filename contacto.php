@@ -1,5 +1,8 @@
 <?php include 'base.php' ?>
 
+<?php startblock('title') ?>
+Contacto LisonKite taller kitesurf
+<?php endblock() ?>
 
 <?php startblock('content') ?>
 <div class="art-layout-wrapper clearfix">

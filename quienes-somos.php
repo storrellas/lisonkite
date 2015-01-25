@@ -1,5 +1,8 @@
 <?php include 'base.php' ?>
 
+<?php startblock('title') ?>
+Profesionalidad y pasión por los deportes de viento
+<?php endblock() ?>
 
 <?php startblock('content') ?>
 

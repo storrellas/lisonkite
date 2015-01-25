@@ -1,5 +1,8 @@
 <?php include 'base.php' ?>
 
+<?php startblock('title') ?>
+Reparación y fabricación flotadores de kite
+<?php endblock() ?>
 
 <?php startblock('content') ?>
 <script>

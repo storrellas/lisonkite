@@ -1,5 +1,8 @@
 <?php include 'base.php' ?> 
 
+<?php startblock('title') ?>
+Estilo de vida kiter
+<?php endblock() ?>
 
 <?php startblock('content') ?> 
 

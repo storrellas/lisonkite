@@ -1,5 +1,8 @@
 <?php include 'base.php' ?> 
 
+<?php startblock('title') ?>
+Qué tipo de reparación necesita tu kite?
+<?php endblock() ?>
 
 <?php startblock('content') ?> 
 <div class="art-layout-wrapper clearfix">

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US"><head>
     <meta charset="utf-8">
-    <title>Taller de reparación integral para equipos de kite.</title>
+    <title><?php startblock('title') ?> Title of the page <?php endblock() ?> </title>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
 	<meta name="description" content="LisonKite, Taller de reparación integral para equipos de kite. Reparamos cualquier desperfecto. Servicio por mensajería a toda la península, recogidas online. Fabricamos flotadores, líneas a medida, bridajes, cabos de potencia, cambiamos válvulas, modificamos barras.">
     <meta name="keywords" content="taller kite, reparar kite, reparar vela, reparar líneas, kite poro, kite rajado, kite roto, kite estropeado, kite, roto, kite explosión, kite ola, kite falta, cometa rota, cometa rajada, cometa estropeada, poro, válvula, válvula desenganchada, pierde aire kite, tapón kite, pierde aire, válvula rota, reparar naish, reparar north, reparar slingshot, reparar airush, reparar ozone, reparar best, reparar takoon, reparar Cabrinha, reparar líneas, polea, líneas, profesional kite, Xavi lison, cabo barra, botavara, pig tail, dacron, borde de ataque, costilla, blader, flotador, vejiga, dynnema, footstrap, cinta spinaker, cinta reparar, reparar rápido, taller kitesurf, taller kitesurf Barcelona, taller, kite Barcelona, Barcelona kitesurf repair, kite repair, kite repair Barcelona.">

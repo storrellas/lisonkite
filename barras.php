@@ -1,5 +1,8 @@
 <?php include 'base.php' ?>
 
+<?php startblock('title') ?>
+Reparacion y mantenimiento de barras de kite
+<?php endblock() ?>
 
 <?php startblock('content') ?>
 <div class="art-layout-wrapper clearfix">
