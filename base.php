@@ -20,6 +20,10 @@
     <script src="script.js"></script>
     <script src="script.responsive.js"></script>
 
+	<!-- CSS Menu -->
+   <link rel="stylesheet" href="cssmenu/styles.css">
+   <script src="cssmenu/script.js"></script>
+
 
 	<style>
 	.art-content .art-postcontent-0 .layout-item-0 { 
@@ -81,6 +85,7 @@
 		</div>
 	    <div class="art-shapes"></div>                                    
 		</header>
+
 
 		<!-- Navigation panel -->
 		<nav class="art-nav clearfix">
