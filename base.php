@@ -85,9 +85,35 @@
 		</div>
 	    <div class="art-shapes"></div>                                    
 		</header>
+		
+		
+		
+		<!-- MENU CSS -->
+	   	<link rel="stylesheet" href="cssmenu/styles.css">
+	   	<script src="cssmenu/script.js"></script>
+		<div id='cssmenu' style="z-index:200">
+			<ul>
+				<li><a href='index.php'>Inicio</a></li>
+				<li class='active has-sub'><a href='reparaciones.php'>Reparaciones</a>
+					<ul>
+						<li><a href='tela.php'>Tela</a>						
+						<li><a href='flotadores.php'>Flotadores</a>						
+						<li><a href='barras.php'>Barras</a>						
+						<li><a href='presupuesto.php'>Presupuesto</a>
+					
+					</ul>
+				</li>
+				<li><a href='recogidas.php'>Recogidas</a></li>
+				<li><a href='kite-style.php'>Kite Style</a></li>
+				<li><a href='quienes-somos.php'>Quienes Somos</a></li>
+				<li><a href='formulario.php'>Formulario</a></li>
+				<li><a href='contacto.php'>Contacto</a></li>
+			</ul>
+		</div>
 
 
-		<!-- Navigation panel -->
+		<!-- Old Navigation panel -->
+		<!-- 
 		<nav class="art-nav clearfix">
 		    <ul class="art-hmenu">
 		    	<li><a href="index.php" class="active">INICIO</a></li>
@@ -106,7 +132,7 @@
 		    	<li><a href="contacto.php">CONTACTO</a></li>		    
 		    </ul> 
 		</nav>
-
+		 -->
 		<div class="art-layout-wrapper clearfix">
 			<?php startblock('content') ?> Place here your content <?php endblock() ?> 
 		</div>
