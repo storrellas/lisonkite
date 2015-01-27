@@ -91,7 +91,7 @@
 		<!-- MENU CSS -->
 	   	<link rel="stylesheet" href="cssmenu/styles.css">
 	   	<script src="cssmenu/script.js"></script>
-		<div id='cssmenu' style="z-index:200">
+		<div id='cssmenu' style="margin-left: 20px;z-index:200">
 			<ul>
 				<li><a href='index.php'>Inicio</a></li>
 				<li class='active has-sub'><a href='reparaciones.php'>Reparaciones</a>
