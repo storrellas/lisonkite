@@ -63,11 +63,99 @@ Presupuesto reparación kite
 
 </script>
   
+<style type="text/css">
+	.question{
+		margin-bottom:20px;
+	}
+	
+	.question input[type=text]{
+		width:200px;
+	}
+	
+</style> 
+  
 <div class="art-layout-wrapper clearfix">
 
 	<div id=page_0 style="padding: 20px">			
-		<div style="border: 3px solid black; border-radius: 20px; text-align: center; height: 300px; line-height: 300px;font-size:60px;">
-		 Page0
+		<div style="border: 3px solid black; border-radius: 20px; padding: 20px;">
+		 
+			<div id="question1" class="question">
+				<p><b>Posicion general de la costilla. *</b></p>
+				<p>Deja la costilla sin aire. Coloca la valvula hacia arriba. 
+				Moldea el flotador hasta que esten las selladas bien colocadas en el borde.<p>
+			
+				<div>
+				 <input type="radio" name="question1" value="question1_A">A - Valvula a la Izquierda<br>
+				 <input type="radio" name="question1" value="question1_B">B - Valvula a la Derecha<br>
+				</div>
+				<div>
+					<img src="images/kitesurfing-273315_640.jpg" style="width: 250px; margin: 0px auto; display: block;">
+				</div>
+			</div>
+			
+			<div id="question2" class="question">
+				<br>
+				<p><b>Longitud maxima de la costilla de punta a punta. *</b></p>
+				<p>Toma la medida total de la costilla. De exterior a exterior.</p>
+				<input type="text" name="question2"/>
+			</div>
+			
+
+			<div id="question3" class="question">
+				<p><b>Ancho de la costilla en el lado más estrecho *</b></p>
+				<input type="text" name="question3"/>
+			</div>
+			
+			
+			<div id="question4" class="question">
+				<p><b>Ancho de la costilla en el lado más ancho *</b></p>
+				<p>Cada diseño de cometa fabrica su punta de diferente manera, la forma de que encaje 
+				a la perfeccion la costilla generica es conseguir ocupar todo el espacio del interior. 
+				Unos ejemplos en la foto!</p>
+				<input type="text" name="question4"/>
+			</div>				
+			
+			<div id="question5" class="question">
+				<p><b>Centrado de la costilla en horizontal *</b></p>
+				<p>Desde el centro de la valvula hasta la punta mas ancha de la costilla.</p>
+				<input type="text" name="question5"/>
+			</div>				
+			
+			<div id="question6" class="question">
+				<p><b>Centrado de la costilla en vertical *</b></p>
+				<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
+				<input type="text" name="question6"/>
+			</div>				
+			
+			<div id="question6" class="question">
+				<p><b>Tipo de válvula para tu costilla *</b></p>
+				<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
+				<div>
+				 <input type="radio" name="question6" value="question6_A">A - Standard sin stoper<br>
+				 <input type="radio" name="question6" value="question6_B">B - Standard con stoper de membrana ( retiene el aire si sacas el inflador )<br>
+				 <input type="radio" name="question6" value="question6_C">C - Standard con stoper de bola ( retiene el aire si sacas el inflador )<br>
+				 <input type="radio" name="question6" value="question6_D">D - One pump negro ( Ozone, Slingshot.... )<br>
+				 <input type="radio" name="question6" value="question6_E">E - One pump azul ( Best, North.... )<br>
+				 <input type="radio" name="question6" value="question6_F">F - One Pump Redonda ( Best )<br>			 
+				</div>						
+				<div style="margin-top:10px">
+					<img alt="" src="images/valvula-autoadhesiva.jpg" style="width: 500px; margin: 0px auto; display: block;">
+				</div>											
+			</div>
+			
+			<div id="question7" class="question">
+				<p><b>Orientacion del tapon en la valvula escogida. *</b></p>
+				<div>
+					<input type="radio" name="question7" value="question7_A">A<br>
+			 		<input type="radio" name="question7" value="question7_B">B<br>
+					<input type="radio" name="question7" value="question7_C">C<br>
+					<input type="radio" name="question7" value="question7_D">D<br>				
+				</div>
+				<div>
+					<img alt="" src="images/soap.jpg" style="width: 300px; margin: 0px auto; display: block;">
+				</div>
+			</div>
+
 		</div>
 	</div>
 
@@ -83,47 +171,11 @@ Presupuesto reparación kite
 		</div>
 	</div>
 
-<!-- 
-	<div style="background: green; height : 400px;">			
-		<div style="text-align: center; position:absolute; top: 10%; left: 5%; width: 90%; height: 300px; background: red;  line-height: 300px;font-size:60px;">
-		 Page1
-		</div>
-	</div>
-	
-	
-	<div style="background: green; height : 400px;">			
-		<div style="text-align: center; position:absolute; top: 10%; left: 5%; width: 90%; height: 300px; background: red;  line-height: 300px;font-size:60px;">
-		 Page2
-		</div>
-	</div>
 
-	<div style="background: green; height : 400px;">			
-		<div style="text-align: center; position:absolute; top: 10%; left: 5%; width: 90%; height: 300px; background: red;  line-height: 300px;font-size:60px;">
-		 Page3
-		</div>
-	</div>
- -->	
-	
 	<!-- Form navigation -->
 	<div style="text-align:center;">
-
-	 	<img id="back_btn" src="images/arrow_left_disabled.png"  style="cursor:pointer; margin-right: 20px" height="80" width="80" onclick="page_switch('back')"> 
-	 	<img id="next_btn" src="images/arrow_right_enabled.png" style="cursor:pointer; margin-left: 20px" height="80" width="80" onclick="page_switch('next')">
-	 	
-	 	<!-- 
-	 	<img src="images/arrow_left_disabled.png"  style="cursor:pointer; margin-right: 20px" height="80" width="80" onclick="location.href='ok.php'"> 
-	 	<img src="images/arrow_right_enabled.png" style="cursor:pointer; margin-left: 20px" height="80" width="80" onclick="location.href='ok.php'">
-	 	 -->
-	 	<!-- 
-		<a href="ok.php" >back button</a>
-		<a href="ok.php" >next button</a>
-	 	-->
-		<!-- This option also works 
-		<div style="margin:0 auto; background:green; width:200px">
-		<a href="ok.php" >back button</a>
-		<a href="ok.php" >next button</a>
-		</div>
-		-->
+	 	<img id="back_btn" src="images/arrow_left_disabled.png"  style="cursor:pointer; margin-right: 20px" height="50" width="80" onclick="page_switch('back')"> 
+	 	<img id="next_btn" src="images/arrow_right_enabled.png" style="cursor:pointer; margin-left: 20px" height="50" width="80" onclick="page_switch('next')">
 	</div>
 
 </div>
