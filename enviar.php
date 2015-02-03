@@ -34,11 +34,12 @@ $cuerpo = $mensaje;
 
 //cuenta de correo a donde quieren q llegue el formulario 
 //$destino = "lisonkite@lisonkite.com"; 
-$destino = "storrellas@gmail.com";
+$destino = "sergi@localhost";
 $origen = $email;
 
 
-echo ("<center><b><font size='5' color='#000000' face='Arial'>"); 
+echo ("<center><b><font size='5' color='#000000' face='Arial'>");
+
 
 if (mail($destino,$origen,$cuerpo,$cabeceras)) 
 { 

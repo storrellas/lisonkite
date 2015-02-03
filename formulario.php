@@ -85,7 +85,7 @@ Presupuesto reparación kite
 				Moldea el flotador hasta que esten las selladas bien colocadas en el borde.<p>
 			
 				<div>
-				 <input type="radio" name="question1" value="question1_A">A - Valvula a la Izquierda<br>
+				 <input type="radio" name="question1" value="question1_A" selected>A - Valvula a la Izquierda<br>
 				 <input type="radio" name="question1" value="question1_B">B - Valvula a la Derecha<br>
 				</div>
 				<div>
@@ -131,7 +131,7 @@ Presupuesto reparación kite
 				<p><b>Tipo de válvula para tu costilla *</b></p>
 				<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
 				<div>
-				 <input type="radio" name="question6" value="question6_A">A - Standard sin stoper<br>
+				 <input type="radio" name="question6" value="question6_A" selected>A - Standard sin stoper<br>
 				 <input type="radio" name="question6" value="question6_B">B - Standard con stoper de membrana ( retiene el aire si sacas el inflador )<br>
 				 <input type="radio" name="question6" value="question6_C">C - Standard con stoper de bola ( retiene el aire si sacas el inflador )<br>
 				 <input type="radio" name="question6" value="question6_D">D - One pump negro ( Ozone, Slingshot.... )<br>
