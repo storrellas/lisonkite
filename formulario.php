@@ -10,6 +10,7 @@ Presupuesto reparación kite
 
 	// Holds the current page
 	current_page = 0;
+	n_total_page = 2;
 
 
 	$(document).ready(function(){
@@ -22,7 +23,7 @@ Presupuesto reparación kite
 	function show_page(n_page){
 		// Remove all pages
 		var ind;
-		for(ind = 0; ind < 3; ind++){			
+		for(ind = 0; ind < n_total_page; ind++){			
 			$("#page_" + ind	).hide();
 		}
 
@@ -34,7 +35,7 @@ Presupuesto reparación kite
 	// Name     : page_switch
 	// Function : switches from one page to the next one
 	function page_switch(command){
-		if( command == "next" && current_page < 2 ){
+		if( command == "next" && current_page < (n_total_page - 1) ){
 			current_page++;
 		}else if( command == "back" && current_page > 0){
 			current_page--;
@@ -47,14 +48,11 @@ Presupuesto reparación kite
 		// Show current page	
 		show_page( current_page );
 
-		if( current_page == 2 ){
+		if( current_page == 1 ){
 			$("#back_btn").attr("src","images/arrow_left_enabled.png");
 			$("#next_btn").attr("src","images/arrow_right_disabled.png");
 		}
-		if( current_page == 1 ){
-			$("#back_btn").attr("src","images/arrow_left_enabled.png");
-			$("#next_btn").attr("src","images/arrow_right_enabled.png");
-		}
+
 		if( current_page == 0 ){
 			$("#back_btn").attr("src","images/arrow_left_disabled.png");
 			$("#next_btn").attr("src","images/arrow_right_enabled.png");
@@ -70,6 +68,11 @@ Presupuesto reparación kite
 	
 	.question input[type=text]{
 		width:200px;
+	}
+	
+	.question .title{
+		font-weight: bold;
+		margin-bottom: 10px;
 	}
 	
 </style> 
@@ -159,17 +162,67 @@ Presupuesto reparación kite
 		</div>
 	</div>
 
-	<div id=page_1 style="padding: 20px">			
-		<div style="border: 3px solid black; border-radius: 20px; text-align: center; height: 300px; line-height: 300px;font-size:60px;">
-		 Page1
+	<div id=page_1 style="padding: 20px">					
+		<div style="border: 3px solid black; border-radius: 20px; padding: 20px;">
+		 	
+			<div id="question1" class="question">
+		 		<div class="title">Nombre:</div> 
+		 		<input value="" name="nombre" size="25" maxlength="90" type="text">		 
+		 	</div>
+			
+			<div id="question2" class="question">
+				<div class="title">Apellidos:</div> 
+				<input value="" name="apellidos" size="35" maxlength="80" type="text">
+			</div>
+			
+			<div id="question3" class="question">
+				<div class="title">Telefono:</div>			
+				<input value="" name="telefono" size="9" maxlength="9" type="text">
+			</div>
+			
+			<div id="question4" class="question">
+				<div class="title">Direccion:</div> 
+				<input value="" name="direccion" size="25" maxlength="100" type="text"><br>
+			</div>
+			
+			<div id="question5" class="question">
+				<div class="title">Codigo Postal:</div> 
+				<input value="" name="codigo" size="5" maxlength="5" type="text">			
+			</div>
+			
+			<div id="question6" class="question">
+				<div class="title">Población:</div>
+			 	<input value="" name="poblacion" size="15" maxlength="50" type="text">			
+			</div>
+			
+			<div id="question7" class="question">
+				<div class="title">Correo electrónico:</div> 
+				<input value="@" name="email" size="40" maxlength="120" type="text">				
+			</div>
+			
+			<div id="question9" class="question">
+				<div class="title">¿Alguna duda?</div>			
+				<textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+			</div>
+			
+			<div id="question9" class="question">
+				<div class="title">¿Cómo prefieres que nos pongamos en contacto contigo?</div>
+				<div>
+					<input type="radio" name="question7" value="question7_A">Wassssssuppp<br>
+			 		<input type="radio" name="question7" value="question7_B">Teléfono<br>
+					<input type="radio" name="question7" value="question7_C">mail<br>
+				</div>
+			</div>
+		
 		</div>
 	</div>
-
+<!-- 
 	<div id=page_2 style="padding: 20px">			
 		<div style="border: 3px solid black; border-radius: 20px; text-align: center; height: 300px; line-height: 300px;font-size:60px;">
 		 Page2
 		</div>
 	</div>
+ -->	
 
 
 	<!-- Form navigation -->
