@@ -79,88 +79,98 @@ Presupuesto reparación kite
   
 <div class="art-layout-wrapper clearfix">
 
-	<div id=page_0 style="padding: 20px">			
-		<div style="border: 3px solid black; border-radius: 20px; padding: 20px;">
-		 
-			<div id="question1" class="question">
-				<p><b>Posicion general de la costilla. *</b></p>
-				<p>Deja la costilla sin aire. Coloca la valvula hacia arriba. 
-				Moldea el flotador hasta que esten las selladas bien colocadas en el borde.<p>
-			
-				<div>
-				 <input type="radio" name="question1" value="question1_A" selected>A - Valvula a la Izquierda<br>
-				 <input type="radio" name="question1" value="question1_B">B - Valvula a la Derecha<br>
+	<form name="contacto" method="post" action="enviar_formulario.php">
+	
+		<!-- Div for page0 -->
+		<div id=page_0 style="padding: 20px">			
+			<div style="border: 3px solid black; border-radius: 20px; padding: 20px;">
+			 
+				<div id="question1" class="question">
+					<p><b>Posicion general de la costilla. *</b></p>
+					<p>Deja la costilla sin aire. Coloca la valvula hacia arriba. 
+					Moldea el flotador hasta que esten las selladas bien colocadas en el borde.<p>
+				
+					<div>
+					 <input type="radio" name="page0_question1" value="question1_A" checked="checked">A - Valvula a la Izquierda<br>
+					 <input type="radio" name="page0_question1" value="question1_B">B - Valvula a la Derecha<br>
+					</div>
+					<div>
+						<img src="images/kitesurfing-273315_640.jpg" style="width: 250px; margin: 0px auto; display: block;">
+					</div>
 				</div>
-				<div>
-					<img src="images/kitesurfing-273315_640.jpg" style="width: 250px; margin: 0px auto; display: block;">
+				
+				<div id="question2" class="question">
+					<br>
+					<p><b>Longitud maxima de la costilla de punta a punta. *</b></p>
+					<p>Toma la medida total de la costilla. De exterior a exterior.</p>
+					<input type="text" name="page0_question2"/>
 				</div>
-			</div>
-			
-			<div id="question2" class="question">
-				<br>
-				<p><b>Longitud maxima de la costilla de punta a punta. *</b></p>
-				<p>Toma la medida total de la costilla. De exterior a exterior.</p>
-				<input type="text" name="question2"/>
-			</div>
-			
-
-			<div id="question3" class="question">
-				<p><b>Ancho de la costilla en el lado más estrecho *</b></p>
-				<input type="text" name="question3"/>
-			</div>
-			
-			
-			<div id="question4" class="question">
-				<p><b>Ancho de la costilla en el lado más ancho *</b></p>
-				<p>Cada diseño de cometa fabrica su punta de diferente manera, la forma de que encaje 
-				a la perfeccion la costilla generica es conseguir ocupar todo el espacio del interior. 
-				Unos ejemplos en la foto!</p>
-				<input type="text" name="question4"/>
-			</div>				
-			
-			<div id="question5" class="question">
-				<p><b>Centrado de la costilla en horizontal *</b></p>
-				<p>Desde el centro de la valvula hasta la punta mas ancha de la costilla.</p>
-				<input type="text" name="question5"/>
-			</div>				
-			
-			<div id="question6" class="question">
-				<p><b>Centrado de la costilla en vertical *</b></p>
-				<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
-				<input type="text" name="question6"/>
-			</div>				
-			
-			<div id="question6" class="question">
-				<p><b>Tipo de válvula para tu costilla *</b></p>
-				<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
-				<div>
-				 <input type="radio" name="question6" value="question6_A" selected>A - Standard sin stoper<br>
-				 <input type="radio" name="question6" value="question6_B">B - Standard con stoper de membrana ( retiene el aire si sacas el inflador )<br>
-				 <input type="radio" name="question6" value="question6_C">C - Standard con stoper de bola ( retiene el aire si sacas el inflador )<br>
-				 <input type="radio" name="question6" value="question6_D">D - One pump negro ( Ozone, Slingshot.... )<br>
-				 <input type="radio" name="question6" value="question6_E">E - One pump azul ( Best, North.... )<br>
-				 <input type="radio" name="question6" value="question6_F">F - One Pump Redonda ( Best )<br>			 
-				</div>						
-				<div style="margin-top:10px">
-					<img alt="" src="images/valvula-autoadhesiva.jpg" style="width: 500px; margin: 0px auto; display: block;">
-				</div>											
-			</div>
-			
-			<div id="question7" class="question">
-				<p><b>Orientacion del tapon en la valvula escogida. *</b></p>
-				<div>
-					<input type="radio" name="question7" value="question7_A">A<br>
-			 		<input type="radio" name="question7" value="question7_B">B<br>
-					<input type="radio" name="question7" value="question7_C">C<br>
-					<input type="radio" name="question7" value="question7_D">D<br>				
+				
+	
+				<div id="question3" class="question">
+					<p><b>Ancho de la costilla en el lado más estrecho *</b></p>
+					<input type="text" name="page0_question3"/>
 				</div>
-				<div>
-					<img alt="" src="images/soap.jpg" style="width: 300px; margin: 0px auto; display: block;">
+				
+				
+				<div id="question4" class="question">
+					<p><b>Ancho de la costilla en el lado más ancho *</b></p>
+					<p>Cada diseño de cometa fabrica su punta de diferente manera, la forma de que encaje 
+					a la perfeccion la costilla generica es conseguir ocupar todo el espacio del interior. 
+					Unos ejemplos en la foto!</p>
+					<input type="text" name="page0_question4"/>
+				</div>				
+				
+				<div id="question5" class="question">
+					<p><b>Centrado de la costilla en horizontal *</b></p>
+					<p>Desde el centro de la valvula hasta la punta mas ancha de la costilla.</p>
+					<input type="text" name="page0_question5"/>
+				</div>				
+				
+				<div id="question6" class="question">
+					<p><b>Centrado de la costilla en vertical *</b></p>
+					<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
+					<input type="text" name="page0_question6"/>
+				</div>				
+				
+				<div id="question7" class="question">
+					<p><b>Tipo de válvula para tu costilla *</b></p>
+					<p>Desde el centro de la valvula hasta la sellada en la base de la costilla.</p>
+					<div>
+					 <input type="radio" name="page0_question7" value="question6_A" checked="checked">A - Standard sin stoper<br>
+					 <input type="radio" name="page0_question7" value="question6_B">B - Standard con stoper de membrana ( retiene el aire si sacas el inflador )<br>
+					 <input type="radio" name="page0_question7" value="question6_C">C - Standard con stoper de bola ( retiene el aire si sacas el inflador )<br>
+					 <input type="radio" name="page0_question7" value="question6_D">D - One pump negro ( Ozone, Slingshot.... )<br>
+					 <input type="radio" name="page0_question7" value="question6_E">E - One pump azul ( Best, North.... )<br>
+					 <input type="radio" name="page0_question7" value="question6_F">F - One Pump Redonda ( Best )<br>			 
+					</div>						
+					<div style="margin-top:10px">
+						<img alt="" src="images/valvula-autoadhesiva.jpg" style="width: 500px; margin: 0px auto; display: block;">
+					</div>											
 				</div>
+				
+				<div id="question8" class="question">
+					<p><b>Orientacion del tapon en la valvula escogida. *</b></p>
+					<div>
+						<input type="radio" name="page0_question8" value="question7_A" checked="checked">A<br>
+				 		<input type="radio" name="page0_question8" value="question7_B">B<br>
+						<input type="radio" name="page0_question8" value="question7_C">C<br>
+						<input type="radio" name="page0_question8" value="question7_D">D<br>				
+					</div>
+					<div>
+						<img alt="" src="images/soap.jpg" style="width: 300px; margin: 0px auto; display: block;">
+					</div>
+				</div>
+	
 			</div>
-
 		</div>
-	</div>
+
+		<div align="center">
+			<input name="Reset" value="LIMPIAR FORMULARIO" type="reset"> 
+			<input name="Submit" value="ENVIAR" type="submit">			
+		</div>
+	
+	</form>
 
 	<div id=page_1 style="padding: 20px">					
 		<div style="border: 3px solid black; border-radius: 20px; padding: 20px;">

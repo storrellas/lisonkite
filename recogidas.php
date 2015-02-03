@@ -56,7 +56,7 @@ reparar.</h2>
 </div>
 </div>
 
-	<form name="contacto" method="post" action="enviar.php">
+	<form name="contacto" method="post" action="enviar_recogidas.php">
 	
 		<p align="left">Nombre: <input value="" name="nombre" size="25"
 			maxlength="90" type="text"><br><br>
@@ -80,9 +80,9 @@ reparar.</h2>
 			<textarea name="horario" id="horario" cols="40" rows="5"></textarea> <br>
 		</p>
 		<p></p>
-		<div align="center"><input name="Reset" value="LIMPIAR FORMULARIO"
-			type="reset"> <input name="Submit" value="ENVIAR" type="submit"> <br>
-			<p style="text-align: center;"></p>
+		<div align="center">
+			<input name="Reset" value="LIMPIAR FORMULARIO" type="reset"> 
+			<input name="Submit" value="ENVIAR" type="submit">			
 		</div>
 	
 	</form>
