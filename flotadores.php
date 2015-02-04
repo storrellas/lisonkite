@@ -107,13 +107,13 @@ jQuery(function($) {
 }
 
 .art-slideValvula320 {
-	background-image: url('images/slideValvula320.jpg');
+	background-image: url('images/flotadores/slideValvula320.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideValvula321 {
-	background-image: url('images/slideValvula321.jpg');
+	background-image: url('images/flotadores/slideValvula321.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -254,13 +254,13 @@ jQuery(function($) {
 }
 
 .art-slidePoro0 {
-	background-image: url('images/slidePoro0.jpg');
+	background-image: url('images/flotadores/slidePoro0.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slidePoro1 {
-	background-image: url('images/slidePoro1.jpg');
+	background-image: url('images/flotadores/slidePoro1.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -455,7 +455,7 @@ del kite.</span></p>
 </div>
 <div class="art-layout-cell" style="width: 33%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Explosion.jpg" height="219" width="263"><br>
+	src="images/flotadores/Explosion.jpg" height="219" width="263"><br>
 </p>
 </div>
 </div>
@@ -526,7 +526,7 @@ material.</span></p>
 </div>
 <div class="art-layout-cell" style="width: 33%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Valvula.jpg" height="219" width="263"><br>
+	src="images/flotadores/Valvula.jpg" height="219" width="263"><br>
 </p>
 </div>
 </div>
@@ -558,12 +558,12 @@ fabricación de bladers de cualquier modelo.</span></p>
 </div>
 <div class="art-layout-cell" style="width: 34%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/bladers2.jpg" height="250" width="300"><br>
+	src="images/flotadores/bladers2.jpg" height="250" width="300"><br>
 </p>
 </div>
 <div class="art-layout-cell" style="width: 33%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Bladers.jpg" height="247" width="297"><br>
+	src="images/flotadores/Bladers.jpg" height="247" width="297"><br>
 </p>
 </div>
 </div>

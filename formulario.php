@@ -49,13 +49,13 @@ Presupuesto reparación kite
 		show_page( current_page );
 
 		if( current_page == 1 ){
-			$("#back_btn").attr("src","images/arrow_left_enabled.png");
-			$("#next_btn").attr("src","images/arrow_right_disabled.png");
+			$("#back_btn").attr("src","images/formulario/arrow_left_enabled.png");
+			$("#next_btn").attr("src","images/formulario/arrow_right_disabled.png");
 		}
 
 		if( current_page == 0 ){
-			$("#back_btn").attr("src","images/arrow_left_disabled.png");
-			$("#next_btn").attr("src","images/arrow_right_enabled.png");
+			$("#back_btn").attr("src","images/formulario/arrow_left_disabled.png");
+			$("#next_btn").attr("src","images/formulario/arrow_right_enabled.png");
 		}
 	}
 
@@ -95,7 +95,7 @@ Presupuesto reparación kite
 					 <input type="radio" name="question1" value="question1_B">B - Valvula a la Derecha<br>
 					</div>
 					<div>
-						<img src="images/kitesurfing-273315_640.jpg" style="width: 250px; margin: 0px auto; display: block;">
+						<img src="images/formulario/kitesurfing-273315_640.jpg" style="width: 250px; margin: 0px auto; display: block;">
 					</div>
 				</div>
 				
@@ -145,7 +145,7 @@ Presupuesto reparación kite
 					 <input type="radio" name="question7" value="question6_F">F - One Pump Redonda ( Best )<br>			 
 					</div>						
 					<div style="margin-top:10px">
-						<img alt="" src="images/valvula-autoadhesiva.jpg" style="width: 500px; margin: 0px auto; display: block;">
+						<img alt="" src="images/formulario/valvula-autoadhesiva.jpg" style="width: 500px; margin: 0px auto; display: block;">
 					</div>											
 				</div>
 				
@@ -158,7 +158,7 @@ Presupuesto reparación kite
 						<input type="radio" name="question8" value="question7_D">D<br>				
 					</div>
 					<div>
-						<img alt="" src="images/soap.jpg" style="width: 300px; margin: 0px auto; display: block;">
+						<img alt="" src="images/formulario/soap.jpg" style="width: 300px; margin: 0px auto; display: block;">
 					</div>
 				</div>
 	
@@ -243,8 +243,8 @@ Presupuesto reparación kite
 
 	<!-- Form navigation -->
 	<div style="text-align:center;">
-	 	<img id="back_btn" src="images/arrow_left_disabled.png"  style="cursor:pointer; margin-right: 20px" height="50" width="80" onclick="page_switch('back')"> 
-	 	<img id="next_btn" src="images/arrow_right_enabled.png" style="cursor:pointer; margin-left: 20px" height="50" width="80" onclick="page_switch('next')">
+	 	<img id="back_btn" src="images/formulario/arrow_left_disabled.png"  style="cursor:pointer; margin-right: 20px" height="50" width="80" onclick="page_switch('back')"> 
+	 	<img id="next_btn" src="images/formulario/arrow_right_enabled.png" style="cursor:pointer; margin-left: 20px" height="50" width="80" onclick="page_switch('next')">
 	</div>
 
 </div>

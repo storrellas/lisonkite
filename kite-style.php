@@ -86,17 +86,17 @@ Estilo de vida kiter
 
 
 .art-slidePitilleraKite40 {
-    background-image:  url('images/slidePitilleraKite40.jpg');
+    background-image:  url('images/kite_style/slidePitilleraKite40.jpg');
     background-position:  0 0;
     background-repeat: no-repeat;
 }
 .art-slidePitilleraKite41 {
-    background-image:  url('images/slidePitilleraKite41.jpg');
+    background-image:  url('images/kite_style/slidePitilleraKite41.jpg');
     background-position:  0 0;
     background-repeat: no-repeat;
 }
 .art-slidePitilleraKite42 {
-    background-image:  url('images/slidePitilleraKite42.jpg');
+    background-image:  url('images/kite_style/slidePitilleraKite42.jpg');
     background-position:  0 0;
     background-repeat: no-repeat;
 }
@@ -208,12 +208,12 @@ height: 10px;
         <p>         </p>
         <div style="margin-left: 2em">         </div>
         <p><span style="color: rgb(0, 0, 0); font-weight: bold;"><br></span></p>
-        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/VespaKite-2.jpg" height="250" width="300"><br></p>
+        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/kite_style/VespaKite-2.jpg" height="250" width="300"><br></p>
         <div style="margin-left: 2em">         </div>
         <p><span style="font-family: Tahoma; font-size: 18px;"></span></p>
     </div><div class="art-layout-cell" style="width: 34%">
         <p><br></p>
-        <p style="text-align: center;"><img style="border-style: solid;" alt="" class="art-lightbox" src="images/VespaKite2-2.jpg" height="250" width="300"><br></p>
+        <p style="text-align: center;"><img style="border-style: solid;" alt="" class="art-lightbox" src="images/kite_style/VespaKite2-2.jpg" height="250" width="300"><br></p>
     </div><div class="art-layout-cell" style="width: 33%">
         <br>
         <span style="color: rgb(77, 50, 75); font-family: Symbol; font-size: 10pt; line-height: 19px;">&nbsp;</span><br>
@@ -233,7 +233,7 @@ height: 10px;
 <div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell" style="width: 33%">
-        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/PitilleraKite.jpg" height="250" width="300"><br></p>
+        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/kite_style/PitilleraKite.jpg" height="250" width="300"><br></p>
     </div><div class="art-layout-cell" style="width: 34%">
         <p> </p>
 <div id="PitilleraKite4" style="position: relative; display: inline-block; z-index: 0; margin: 5px;  border-style: solid; border-color: #A677A3; border-width: 1px;  " class="art-collage">
@@ -280,9 +280,9 @@ height: 10px;
 <div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell" style="width: 33%">
-        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/ToldoKite-2.jpg" height="250" width="300"><br></p>
+        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/kite_style/ToldoKite-2.jpg" height="250" width="300"><br></p>
     </div><div class="art-layout-cell" style="width: 34%">
-        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/ToldoKite2-2.jpg" height="250" width="300"><br></p>
+        <p><img style="border-style: solid;" alt="" class="art-lightbox" src="images/kite_style/ToldoKite2-2.jpg" height="250" width="300"><br></p>
     </div><div class="art-layout-cell" style="width: 33%">
         <p class="MsoNormal" style="margin-top: 2.25pt; margin-right: 0cm; margin-left: 8.25pt; margin-bottom: 0.0001pt; text-indent: -18pt; line-height: 14.25pt;"><span style="font-size: 10pt; font-family: Symbol; color: rgb(77, 50, 75);">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><!--&#91;endif&#93;--><span style="font-size: 13.5pt; font-family: Tahoma, sans-serif; color: rgb(77, 50, 75);">Orientado a los fines de semana que nos tostamos en la playa...</span></p>
         <p class="MsoNormal" style="margin-top: 9pt; margin-right: 3.75pt; margin-bottom: 9pt; margin-left: 3.75pt; line-height: 20.25pt;"><span style="font-size: 13.5pt; font-family: Tahoma, sans-serif;">Aquí un toldo para ti y los amigos, ya &nbsp;que tras horas de navegación un descanso en la sombra es de agradecer.</span></p>

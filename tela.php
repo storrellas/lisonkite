@@ -218,43 +218,43 @@ Reparación y mantenimiento tejido de kite
 }
 
 .art-slideC490 {
-	background-image: url('images/slideC490.jpg');
+	background-image: url('images/tela/slideC490.jpg');
 }
 
 .art-slideC491 {
-	background-image: url('images/slideC491.jpg');
+	background-image: url('images/tela/slideC491.jpg');
 }
 
 .art-slideC492 {
-	background-image: url('images/slideC492.jpg');
+	background-image: url('images/tela/slideC492.jpg');
 }
 
 .art-slideC493 {
-	background-image: url('images/slideC493.jpg');
+	background-image: url('images/tela/slideC493.jpg');
 }
 
 .art-slideBAC40 {
-	background-image: url('images/slideBAC40.jpg');
+	background-image: url('images/tela/slideBAC40.jpg');
 }
 
 .art-slideBAC41 {
-	background-image: url('images/slideBAC41.jpg');
+	background-image: url('images/tela/slideBAC41.jpg');
 }
 
 .art-slideBAC42 {
-	background-image: url('images/slideBAC42.jpg');
+	background-image: url('images/tela/slideBAC42.jpg');
 }
 
 .art-slideBAC43 {
-	background-image: url('images/slideBAC43.jpg');
+	background-image: url('images/tela/slideBAC43.jpg');
 }
 
 .art-slideBAC44 {
-	background-image: url('images/slideBAC44.jpg');
+	background-image: url('images/tela/slideBAC44.jpg');
 }
 
 .art-slideBAC45 {
-	background-image: url('images/slideBAC45.jpg');
+	background-image: url('images/tela/slideBAC45.jpg');
 }
 
 .art-slidenavigatorBAC4 {
@@ -394,37 +394,37 @@ Reparación y mantenimiento tejido de kite
 }
 
 .art-slideGaastraMax210 {
-	background-image: url('images/slideGaastraMax210.jpg');
+	background-image: url('images/tela/slideGaastraMax210.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideGaastraMax211 {
-	background-image: url('images/slideGaastraMax211.jpg');
+	background-image: url('images/tela/slideGaastraMax211.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideGaastraMax212 {
-	background-image: url('images/slideGaastraMax212.jpg');
+	background-image: url('images/tela/slideGaastraMax212.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideGaastraMax213 {
-	background-image: url('images/slideGaastraMax213.jpg');
+	background-image: url('images/tela/slideGaastraMax213.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideGaastraMax214 {
-	background-image: url('images/slideGaastraMax214.jpg');
+	background-image: url('images/tela/slideGaastraMax214.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideGaastraMax215 {
-	background-image: url('images/slideGaastraMax215.jpg');
+	background-image: url('images/tela/slideGaastraMax215.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -565,25 +565,25 @@ Reparación y mantenimiento tejido de kite
 }
 
 .art-slideAir10 {
-	background-image: url('images/slideAir10.jpg');
+	background-image: url('images/tela/slideAir10.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideAir11 {
-	background-image: url('images/slideAir11.jpg');
+	background-image: url('images/tela/slideAir11.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideAir12 {
-	background-image: url('images/slideAir12.jpg');
+	background-image: url('images/tela/slideAir12.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 
 .art-slideAir13 {
-	background-image: url('images/slideAir13.jpg');
+	background-image: url('images/tela/slideAir13.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
