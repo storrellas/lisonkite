@@ -24,20 +24,20 @@ Qué tipo de reparación necesita tu kite?
 					<div class="art-content-layout">
     					<div class="art-content-layout-row">
     						<div class="art-layout-cell" style="width: 50%" >
-        						<p><a href="reparaciones/tela.html"><img width="400" height="200" alt="" src="images/Tejido-2.jpg" class=""></a><br></p>
+        						<p><a href="reparaciones/tela.html"><img width="400" height="200" alt="" src="images/reparaciones/Tejido-2.jpg" class=""></a><br></p>
     						</div>
     						<div class="art-layout-cell" style="width: 50%" >
-        						<p><a href="reparaciones/flotadores-2.html"><img width="400" height="200" alt="" src="images/Flotador.jpg" class=""></a><br></p>
+        						<p><a href="reparaciones/flotadores-2.html"><img width="400" height="200" alt="" src="images/reparaciones/Flotador.jpg" class=""></a><br></p>
     						</div>
     					</div>
 					</div>
 					<div class="art-content-layout">
     					<div class="art-content-layout-row">
     						<div class="art-layout-cell" style="width: 50%" >
-        						<p><a href="reparaciones/barras-2.html"><img width="400" height="200" alt="" src="images/Barras-2.jpg" class=""></a><br></p>
+        						<p><a href="reparaciones/barras-2.html"><img width="400" height="200" alt="" src="images/reparaciones/Barras-2.jpg" class=""></a><br></p>
     						</div>
     						<div class="art-layout-cell" style="width: 50%" >
-        						<p><a href="reparaciones/presupuesto.html"><img width="400" height="200" alt="" src="images/Presupuesto-2.jpg" class=""></a><br></p>
+        						<p><a href="reparaciones/presupuesto.html"><img width="400" height="200" alt="" src="images/reparaciones/Presupuesto-2.jpg" class=""></a><br></p>
     						</div>
     					</div>
 					</div>

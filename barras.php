@@ -64,12 +64,12 @@ de lineas a medida.</p>
 </div>
 <div class="art-layout-cell layout-item-0" style="width: 34%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Lineas.jpg" height="250" width="300"><br>
+	src="images/barras/Lineas.jpg" height="250" width="300"><br>
 </p>
 </div>
 <div class="art-layout-cell layout-item-0" style="width: 33%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Lineas2.jpg" height="242" width="291"><br>
+	src="images/barras/Lineas2.jpg" height="242" width="291"><br>
 </p>
 </div>
 </div>
@@ -105,12 +105,12 @@ quinta línea.</span></p>
 </div>
 <div class="art-layout-cell layout-item-0" style="width: 34%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Poleas.jpg" height="250" width="300"><br>
+	src="images/barras/Poleas.jpg" height="250" width="300"><br>
 </p>
 </div>
 <div class="art-layout-cell layout-item-0" style="width: 33%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Brida.jpg" height="242" width="291"><br>
+	src="images/barras/Brida.jpg" height="242" width="291"><br>
 </p>
 </div>
 </div>
@@ -140,12 +140,12 @@ satisface la función de algún componente.</span></p>
 </div>
 <div class="art-layout-cell layout-item-0" style="width: 34%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Cleamclat.jpg" height="250" width="300"><br>
+	src="images/barras/Cleamclat.jpg" height="250" width="300"><br>
 </p>
 </div>
 <div class="art-layout-cell layout-item-0" style="width: 33%">
 <p><img style="border-style: solid;" alt="" class="art-lightbox"
-	src="images/Loop.jpg" height="242" width="291"><br>
+	src="images/barras/Loop.jpg" height="242" width="291"><br>
 </p>
 </div>
 </div>

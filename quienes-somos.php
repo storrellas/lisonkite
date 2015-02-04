@@ -19,7 +19,7 @@ Profesionalidad y pasión por los deportes de viento
 <div class="art-content-layout">
 <div class="art-content-layout-row">
 <div class="art-layout-cell" style="width: 33%">
-<p><img alt="" class="art-lightbox" src="images/Lisonkitee-2.jpg"
+<p><img alt="" class="art-lightbox" src="images/quienes_somos/7Lisonkitee-2.jpg"
 	height="300" width="300"></p>
 <p><br>
 </p>
@@ -55,7 +55,7 @@ rudimentarios food straps. Nada que ver con el material actual. </span></p>
 <div class="art-content-layout">
 <div class="art-content-layout-row">
 <div class="art-layout-cell" style="width: 33%">
-<p><img alt="" class="art-lightbox" src="images/Franqui-2.jpg"
+<p><img alt="" class="art-lightbox" src="images/quienes_somos/Franqui-2.jpg"
 	height="196" width="295"><br>
 </p>
 </div>
@@ -65,7 +65,7 @@ rudimentarios food straps. Nada que ver con el material actual. </span></p>
 </p>
 </div>
 <div class="art-layout-cell" style="width: 33%">
-<p><img alt="" class="art-lightbox" src="images/Zalduendo2008_060-3.jpg"
+<p><img alt="" class="art-lightbox" src="images/quienes_somos/Zalduendo2008_060-3.jpg"
 	height="197" width="295"><br>
 </p>
 </div>
