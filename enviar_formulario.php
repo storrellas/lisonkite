@@ -1,6 +1,7 @@
 
 <?php
 
+
 // Page0 Items
 $question1 = $_POST["question1"];
 $question2 = $_POST["question2"];
@@ -34,8 +35,8 @@ $mensaje .= "DIRECCION:".$direccion." \n";
 $mensaje .= "CODIGO POSTAL:".$codigo." \n"; 
 $mensaje .= "POBLACION:".$poblacion." \n"; 
 $mensaje .= "EMAIL:".$email." \n"; 
-$mensaje .= "DESCRIPCION:".$descripcion." \n"; 
-$mensaje .= "HORARIO RECOGIDA:".$horario." \n";
+$mensaje .= "DUDAS:".$doubts." \n"; 
+$mensaje .= "TIPO DE CONTACTO:".$contact_type." \n";
 $mensaje .= "\n";
 
 $mensaje .= "QUESTION1:".$question1."\n";
@@ -87,15 +88,15 @@ echo ("<p>email:".$email."</p>");
 echo ("<p>doubts:".$doubts."</p>");
 echo ("<p>contact_type:".$contact_type."</p>");
 
-echo ("</b></font></center>")
+echo ("</b></font></center>");
 
 
 // Send the email
 if (mail($destino,$origen,$cuerpo,$cabeceras)) 
 { 
-	echo header( 'Location: ok.php' ) ;
+	echo header( 'Location: ok.php' );
 } else { 
 	echo ("ERROR!!. PORFAVOR, SOLICITA TU RECOGIDA POR WhatsApp o Mail."); 
 } 
-
+/**/
 ?> 
