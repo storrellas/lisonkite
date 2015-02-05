@@ -8,7 +8,7 @@ Taller de reparación integral para equipos de kite
 <?php startblock('content') ?>
 <script type="text/javascript">
 	$( document ).ready(function() {
-		 $("#cssmenu #formulario").addClass("active");			
+		 $("#cssmenu #inicio").addClass("active");			
 	});
 </script>
 <div class="art-content-layout">
