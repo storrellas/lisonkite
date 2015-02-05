@@ -93,8 +93,8 @@
 	   	<script src="cssmenu/script.js"></script>
 		<div id='cssmenu' style="margin-left: 20px;z-index:200">
 			<ul>
-				<li><a href='index.php'>Inicio</a></li>
-				<li class='active has-sub'><a href='reparaciones.php'>Reparaciones</a>
+				<li class='active'><a href='index.php'>Inicio</a></li>
+				<li class='has-sub'><a href='reparaciones.php'>Reparaciones</a>
 					<ul>
 						<li><a href='tela.php'>Tela</a>						
 						<li><a href='flotadores.php'>Flotadores</a>						
