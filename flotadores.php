@@ -5,6 +5,12 @@ Reparación y fabricación flotadores de kite
 <?php endblock() ?>
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #reparaciones").addClass("active");			
+	});
+</script>
+
 <script>
 
 jQuery(function($) {

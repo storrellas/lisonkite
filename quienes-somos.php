@@ -5,6 +5,12 @@ Profesionalidad y pasión por los deportes de viento
 <?php endblock() ?>
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #quienes_somos").addClass("active");			
+	});
+</script>
+
 
 <div class="art-layout-wrapper clearfix">
 	<div class="art-content-layout">
@@ -21,7 +27,7 @@ Profesionalidad y pasión por los deportes de viento
 								<div class="art-layout-cell" style="width: 33%">
 									<p>
 										<img alt="" class="art-lightbox"
-											src="images/quienes_somos/7Lisonkitee-2.jpg" height="300"
+											src="images/quienes_somos/Lisonkitee-2.jpg" height="300"
 											width="300">
 									</p>
 									<p>

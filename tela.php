@@ -5,9 +5,13 @@ Reparación y mantenimiento tejido de kite
 <?php endblock() ?>
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #reparaciones").addClass("active");			
+	});
+</script>
 
 <style>
-
 
 .art-content .art-postcontent-0 .layout-item-0 {
 	padding-right: 3px;

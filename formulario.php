@@ -5,8 +5,13 @@ Presupuesto reparación kite
 <?php endblock() ?>
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #formulario").addClass("active");			
+	});
+</script>
 
-<script> 
+<script type="text/javascript"> 
 
 	// Holds the current page
 	current_page = 0;

@@ -5,8 +5,14 @@ Estilo de vida kiter
 <?php endblock() ?>
 
 <?php startblock('content') ?> 
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #kite_style").addClass("active");			
+	});
+</script>
 
-<script>jQuery(function($) {
+<script text="text/javascript">
+jQuery(function($) {
     'use strict';
     if ($.fn.slider) {
         $(".art-slidecontainerPitilleraKite4").each(function () {

@@ -5,6 +5,12 @@ Qué tipo de reparación necesita tu kite?
 <?php endblock() ?>
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #reparaciones").addClass("active");			
+	});
+</script>
+
 <div class="art-layout-wrapper clearfix">
 	<div class="art-content-layout">
 		<div class="art-content-layout-row">

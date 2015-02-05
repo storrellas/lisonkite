@@ -63,6 +63,8 @@
 			  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
 			  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
+
+	
 </script>
 
 <!-- Main Container -->
@@ -93,8 +95,8 @@
 	   	<script src="cssmenu/script.js"></script>
 		<div id='cssmenu' style="margin-left: 20px;z-index:200">
 			<ul>
-				<li class='active'><a href='index.php'>Inicio</a></li>
-				<li class='has-sub'><a href='reparaciones.php'>Reparaciones</a>
+				<li id="inicio"><a href='index.php'>Inicio</a></li>
+				<li id="reparaciones" class='has-sub'><a href='reparaciones.php'>Reparaciones</a>
 					<ul>
 						<li><a href='tela.php'>Tela</a>						
 						<li><a href='flotadores.php'>Flotadores</a>						
@@ -103,11 +105,11 @@
 					
 					</ul>
 				</li>
-				<li><a href='recogidas.php'>Recogidas</a></li>
-				<li><a href='kite-style.php'>Kite Style</a></li>
-				<li><a href='quienes-somos.php'>Quienes Somos</a></li>
-				<li><a href='formulario.php'>Formulario</a></li>
-				<li><a href='contacto.php'>Contacto</a></li>
+				<li id="recogidas" ><a href='recogidas.php'>Recogidas</a></li>
+				<li id="kite_style" ><a href='kite-style.php'>Kite Style</a></li>
+				<li id="quienes_somos" ><a href='quienes-somos.php'>Quienes Somos</a></li>
+				<li id="formulario" ><a href='formulario.php'>Formulario</a></li>
+				<li id="contacto" ><a href='contacto.php'>Contacto</a></li>
 			</ul>
 		</div>
 

@@ -5,6 +5,11 @@ Recogida a domicilio de material kitesurf a reparar
 <?php endblock() ?>
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #recogidas").addClass("active");			
+	});
+</script>
 <div class="art-layout-wrapper clearfix">
 	<div class="art-content-layout">
 		<div class="art-content-layout-row">

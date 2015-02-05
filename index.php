@@ -6,6 +6,11 @@ Taller de reparación integral para equipos de kite
 
 
 <?php startblock('content') ?>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		 $("#cssmenu #formulario").addClass("active");			
+	});
+</script>
 <div class="art-content-layout">
 	<div class="art-content-layout-row">
 		<div class="art-layout-cell art-content clearfix">
